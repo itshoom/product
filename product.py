@@ -6,3 +6,5 @@ while True:
     price = input('请输入商品价格: ')
     products.append([name, price])
 print(products)
+for product in products:
+    print(product)
